@@ -1,0 +1,30 @@
+html {
+	font-family: Bahnschrift;
+	font-size: 20px;
+	text-align: left;
+	color: #232323;
+	background-image: url("bg.png");
+	background-size: 100% 100%;
+}
+body {
+	background-color: #ffffffa6;
+}
+#welcome {
+	font-family: 'Segoe UI';
+	text-align: center;
+	background-color: #c99ce49c;
+	color: #232323;
+}
+#end {
+	font-family: 'Segoe UI';
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.384);
+	color: #232323;
+}
+#title {
+	text-align: center;
+	font-family: Candara;
+}
+#text {
+	margin-left: 12px;
+}

@@ -7,10 +7,10 @@ html {
 	background-repeat: no-repeat;
 }
 body {
-	margin: 12px;
 	background-color: #ffffffa6;
 }
 #welcome {
+	margin: 12px;
 	font-family: 'Segoe UI';
 	text-align: center;
 	background-color: #c99ce49c;

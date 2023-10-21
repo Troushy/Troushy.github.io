@@ -1,4 +1,5 @@
 html {
+	margin: 12px;
 	font-family: Bahnschrift;
 	font-size: 17px;
 	text-align: left;
@@ -27,5 +28,5 @@ body {
 	font-family: Candara;
 }
 #text {
-	margin-left: 12px;
+	margin: 12px;
 }

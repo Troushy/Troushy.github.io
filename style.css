@@ -1,5 +1,4 @@
 html {
-	margin: 12px;
 	font-family: Bahnschrift;
 	font-size: 17px;
 	text-align: left;
@@ -9,6 +8,7 @@ html {
 	background-repeat: no-repeat;
 }
 body {
+	margin: 12px;
 	background-color: #ffffffa6;
 }
 #welcome {

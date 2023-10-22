@@ -1,13 +1,13 @@
 html {
 	font-size: 17px;
 	text-align: left;
-	color: #232323;
+	color: #1f1f1f;
 	background-image: url("img/bg.png");
 	background-size: auto 2610px;
 	background-repeat: no-repeat;
 }
 body {
-	background-color: #ffffffa6;
+	background-color: #ffffff91;
 }
 #welcome {
 	margin: 12px;

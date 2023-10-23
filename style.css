@@ -30,3 +30,9 @@ body {
 	margin: 12px;
 	font-family: Bahnschrift;
 }
+button {
+	background-color: azure;
+	color: rgb(31, 31, 31);
+	border-radius: 5px;
+	size: 120px 40px;
+}

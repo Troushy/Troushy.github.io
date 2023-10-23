@@ -34,6 +34,7 @@ button {
 	background-color: rgb(33, 104, 31);
 	color: rgb(173, 173, 173);
 	border-radius: 5px;
-	size: 359px 98px;
+	height:200px;
+    width:200px;
 	border: none;
 }

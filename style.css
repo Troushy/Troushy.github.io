@@ -2,8 +2,7 @@ html {
 	font-size: 17px;
 	text-align: left;
 	color: #1f1f1f;
-	background-image: url("img/bg.png");
-	background-size: auto 2610px;
+	background-color: #3a3a3a;
 	background-repeat: no-repeat;
 }
 body {
@@ -13,7 +12,7 @@ body {
 	margin: 12px;
 	font-family: 'Segoe UI';
 	text-align: center;
-	background-color: #c99ce49c;
+	background-color: #6c9ecc98;
 	color: #232323;
 }
 #end {

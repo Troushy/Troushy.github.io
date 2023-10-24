@@ -12,14 +12,14 @@ body {
 	margin: 12px;
 	font-family: 'Segoe UI';
 	text-align: center;
-	background-color: #389fff;
+	background-color: #0066ff;
 	color: #232323;
 }
 #end {
 	text-decoration: none;
 	font-family: 'Segoe UI';
 	text-align: center;
-	background-color: rgb(0, 0, 0);
+	background-color: #0066ff;
 	color: #ffffff;
 }
 #title {
@@ -31,14 +31,14 @@ body {
 	font-family: Bahnschrift;
 }
 a {
-	color:#ffffff;
+	color:#000000;
 	text-decoration: none;
 }
 a:active {
-	color:#ffffff;
+	color:#000000;
 	text-decoration: none;
 }
 a:visited {
-	color:#ffffff;
+	color:#000000;
 	text-decoration: none;
 }

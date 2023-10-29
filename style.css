@@ -1,8 +1,8 @@
 html {
 	font-size: 18px;
 	text-align: left;
-	color: #1f1f1f;
-	background-color: #161616;
+	color: #000000;
+	background-color: #303030;
 	background-repeat: no-repeat;
 }
 body {
@@ -13,14 +13,15 @@ body {
 	font-family: 'Segoe UI';
 	text-align: center;
 	background-color: #00c7eb;
-	color: #232323;
+	color: #000000;
+	border-radius: 23px;
 }
 #end {
 	text-decoration: none;
 	font-family: 'Segoe UI';
 	text-align: center;
 	background-color: #00c7eb;
-	color: #ffffff;
+	color: #000000;
 }
 #title {
 	text-align: center;

@@ -11,14 +11,14 @@ body {
 }
 #welcome {
 	margin: 12px;
-	font-family: 'Segoe UI';
+	font-family: 'Segoe UI', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	text-align: center;
 	background-color: #00c7eb;
 	color: #000000;
 }
 #end {
 	text-decoration: none;
-	font-family: 'Segoe UI';
+	font-family: 'Segoe UI', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	text-align: center;
 	background-color: #00c7eb;
 	color: #000000;
@@ -26,11 +26,11 @@ body {
 }
 #title {
 	text-align: center;
-	font-family: Candara;
+	font-family: Candara, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #text {
 	margin: 12px;
-	font-family: Bahnschrift;
+	font-family: Bahnschrift, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 a {
 	color:#000000;

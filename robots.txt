@@ -1,0 +1,6 @@
+# TransylvanYT0917's site
+
+User-agent: *
+Disallow: /src/
+Allow: /src/Sitemap.xml
+Sitemap: https://transylvanyt0917.github.com/src/Sitemap.xml

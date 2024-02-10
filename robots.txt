@@ -2,6 +2,5 @@
 
 User-agent: *
 Disallow: /src/
-Allow: /src/Sitemap.xml
 Allow: /src/html/
-Sitemap: https://transylvanyt0917.github.com/Sitemap.xml
+Sitemap: /Sitemap.xml

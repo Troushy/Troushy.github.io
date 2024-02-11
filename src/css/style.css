@@ -15,7 +15,47 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 #upside {
-    background-color: #1a737f;
+    background-color: #1a577f;
     color: white;
     padding: 6px;
+}
+#upside_error {
+    background-color: #7f1a1a;
+    color: white;
+    padding: 6px;
+}
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #4682d7;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-family: 'SF Pro Text', system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, 'Open Sans', sans-serif;
+    min-width: 24.8%;
+}
+#buttons {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 0px 0px 10px 5px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+button:hover {
+    background: #1d66aa;
+}
+      
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #cbe4ee;
+}
+a:visited {
+    color: #4682d7;
+}
+a:link {
+    color: #4682d7;
 }

@@ -1,6 +1,6 @@
 html {
     text-decoration: none;
-    font-family: 'SF Pro Text', system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, 'Open Sans', sans-serif;
+    font-family: 'Google Sans';
     font-size: 17px;
     padding: 20px;
     background-image: url(../png/earth.png);
@@ -13,6 +13,7 @@ body {
 }
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
+    font-style: bold;
 }
 #upside {
     background-color: #1a577f;
@@ -34,7 +35,7 @@ button {
     color: #fff;
     padding: 10px 20px;
     font-size: 20px;
-    font-family: 'SF Pro Text', system-ui, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Ubuntu, 'Open Sans', sans-serif;
+    font-family: 'Google Sans';
     min-width: 22%;
     text-align: center;
 }
@@ -59,4 +60,16 @@ a:visited {
 }
 a:link {
     color: #4682d7;
+}
+@font-face {
+    font-family: "Google Sans";
+    src: url("../ttf/Google-Sans/GoogleSans-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Google Sans";
+    src: url("../ttf/Google-Sans/GoogleSans-Bold.ttf") format("truetype");
+    font-style: bold;
+    font-weight: normal;
 }

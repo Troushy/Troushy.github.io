@@ -1,6 +1,5 @@
-# TransylvanYT0917's site
+# UralYT0917's site
 
 User-agent: *
 Disallow: src/
-Allow: src/html/
 Sitemap: Sitemap.xml

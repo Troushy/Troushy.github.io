@@ -1,6 +1,6 @@
 html {
     text-decoration: none;
-    font-family: 'Google Sans';
+    font-family: 'Helvetica Neue';
     font-size: 17px;
     padding: 20px;
     background-image: url(../png/earth.png);
@@ -35,7 +35,7 @@ button {
     color: #fff;
     padding: 10px 20px;
     font-size: 20px;
-    font-family: 'Google Sans';
+    font-family: 'Helvetica Neue';
     min-width: 10%;
     text-align: center;
 }
@@ -61,15 +61,11 @@ a:visited {
 a:link {
     color: #4682d7;
 }
+
+
 @font-face {
-    font-family: "Google Sans";
-    src: url("../ttf/Google-Sans/GoogleSans-Regular.ttf") format("truetype");
+    font-family: 'Helvetica Neue';
+    src: url('../ttf/Helvetica-Neue/HelveticaNeueCyr-Roman.ttf') format('truetype');
+    font-weight: 900;
     font-style: normal;
-    font-weight: normal;
-}
-@font-face {
-    font-family: "Google Sans";
-    src: url("../ttf/Google-Sans/GoogleSans-Bold.ttf") format("truetype");
-    font-style: bold;
-    font-weight: normal;
 }

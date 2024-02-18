@@ -3,26 +3,23 @@ html {
     font-family: 'Helvetica Neue';
     font-weight: 400;
     font-style: normal;
-    font-size: 17px;
-    padding: 20px;
-    background-image: url(../png/earth.png);
-    background-size: 4% auto;
+    font-size: 18px;
+    background-color: #fff;
 }
 body {
-    padding: 18px;
+    padding: 0;
     background-color: white;
     color: black;
-    border-radius: 25px 25px 25px 25px;
+    
 }
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
-    font-weight: 700;
+    font-weight: 600;
 }
 header {
     background-color: #1a577f;
     color: white;
     padding: 6px;
-    border-radius: 25px 25px 0px 0px;
 
 }
 button {
@@ -34,7 +31,7 @@ button {
     background: #4682d7;
     color: #fff;
     padding: 10px 20px;
-    font-size: 17px;
+    font-size: 18px;
     font-family: 'Helvetica Neue';
     font-weight: 400;
     font-style: normal;
@@ -43,11 +40,19 @@ button {
 }
 nav {
     text-align: center;
-    background-color: #000000;
     border-radius: 0px 0px 25px 25px;
     text-decoration: none;
     padding-top: 10px;
     padding-bottom: 10px; 
+
+    a:link {
+        text-decoration: none;
+        padding-right: 6px;
+    }
+    a:hover {
+        text-decoration: none;
+        padding-right: 6px;
+    }
 }
 button:hover {
     background: #1d66aa;
@@ -58,11 +63,11 @@ button:focus {
     box-shadow: 0 0 0 4px #cbe4ee;
 }
 a:visited {
-    color: #000000;
+    color: #1d66aa;
     text-decoration: none;
 }
 a:link {
-    color: #000000;
+    color: #1d66aa;
     text-decoration: none;
 }
 .italic {

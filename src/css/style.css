@@ -50,8 +50,7 @@ button:hover {
 }
       
 button:focus {
-    outline: none;
-    box-shadow: 0 0 0 4px #cbe4ee;
+    background: #4682d7;
 }
 a:visited {
     color: #1d66aa;

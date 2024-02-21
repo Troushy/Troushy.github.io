@@ -17,12 +17,25 @@
         <p>&lt;! --&gt; &mdash; коментарий (игнорируется браузером);</p>
         <p>&lt;a&gt; &lt;/a&gt; &mdash; ссылка;</p>
         <p>&lt;body&gt; &lt;/body&gt; &mdash; &laquo;тело&raquo; документа (<span class="bold">обязательный тег!</span>);</p>
-        <p>&lt;div&gt; &lt;/div&gt; &mdash; блоковый элемент;</p>
+        <p>&lt;div&gt; &lt;/div&gt; &mdash; блочный элемент;</p>
         <p>&lt;head&gt; &lt;/head&gt; &mdash; &laquo;голова&raquo; документа (<span class="bold">обязательный тег!</span>);</p>
         <p>&lt;html&gt; &lt;/html&gt; &mdash; документ (<span class="bold">обязательный тег!</span>);</p>
         <p>&lt;!DOCTYPE html&gt; &mdash; тип документа (<span class="bold">обязательный тег!</span>);</p>
         <p>&lt;p&gt; &lt;/p&gt; &mdash; параграф;</p>
         <p>&lt;span&gt; &lt;/span&gt; &mdash; неблоковый элемент для стилей;</p>
-        <p>&lt;! --&gt; &mdash; комментарий от разработчиков. &lt;!DOCTYPE html&gt; &mdash; определяет тип документа (<span class="bold">обязательный тег для страниц HTML!</span>). &lt;a&gt; &lt;/a&gt; &mdash; ссылочный элемент &mdash; ссылка (напр.: на скачивание, на рикролл, на видео и пр.). &lt;body&gt; &lt;/body&gt; &mdash; &laquo;тело&raquo; документа или область контента документа (<span class="bold">обязательный тег для страниц HTML!</span>). &lt;head&gt; &lt;/head&gt; &mdash; параметры документа такие как подключение стилей и скриптов, изменение кодировки и пр. (<span class="bold">обязательный тег для страниц HTML!</span>).</p>
+        <p>&lt;! --&gt; &mdash; комментарий от разработчиков. &lt;!DOCTYPE html&gt; &mdash; определяет тип документа (<span class="bold">обязательный тег для страниц HTML!</span>). &lt;a&gt; &lt;/a&gt; &mdash; ссылочный элемент &mdash; ссылка (напр.: на скачивание, на рикролл, на видео и пр.). &lt;body&gt; &lt;/body&gt; &mdash; &laquo;тело&raquo; документа или область контента документа (<span class="bold">обязательный тег для страниц HTML!</span>). &lt;head&gt; &lt;/head&gt; &mdash; параметры документа такие как подключение стилей и скриптов, изменение кодировки и пр. (<span class="bold">обязательный тег для страниц HTML!</span>). &lt;html&gt; &lt;/html&gt; &mdash; документ &mdash; всё, что внутри него считается документом (<span class="bold">обязательный тег для страниц HTML!</span>). &lt;p&gt; &lt;/p&gt; &mdash; параграф &mdash; внутри него находится текст. Блочный элемент. &lt;span&gt; &lt;/span&gt; &mdash; неблочны элемент стиля &mdash; внутри него находится текст, который впоследсвии стилизуется.</p>
+        <h2 id="HelloWorld">Страница "Hello world!"</h2>
+        <p>В HTML есть обязательная иерархия документа (страница "Hello world!"):</p>
+        <span class="bold">
+        <p>1 |&lt;!DOCTYPE html&gt; &lt;! устанавливаем тип документа --&gt;</p>
+        <p>2 |&lt;html&gt; &lt;! начало страницы --&gt;</p>
+        <p>3 |    &lt;head&gt; </p>
+        <p>4 |        &lt;title&gt;Hello world!&lt;/title&gt; &lt;! Заголовок "Hello world" --&gt;</p>
+        <p>5 |    &lt;/head&gt;</p>
+        <p>6 |    &lt;body&gt;</p>
+        <p>7 |        Hello world! &lt;! Надпись "Hello world" --&gt;</p>
+        <p>8 |    &lt;/body&gt;</p>
+        <p>9 |&lt;/html&gt; &lt;! конец страницы --&gt;</p>
+        </span>
     </body>
 </html>

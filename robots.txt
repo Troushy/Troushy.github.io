@@ -1,5 +1,5 @@
-# UralYT0917's site
-
 User-agent: *
 Disallow: src/
+Allow: src/html/
+Disallow: src/html/adminpanel.html
 Sitemap: Sitemap.xml

@@ -1,10 +1,12 @@
 html {
     text-decoration: none;
-    font-family: 'SF Pro Text';
-    font-weight: 400;
+    font-family: 'Minecraft';
+    font-weight: 100;
     font-style: normal;
-    font-size: 20px;
+    font-size: 18px;
     background-color: #fff;
+    text-align: center;
+    line-height: 2.1;
 }
 body {
     padding: 0;
@@ -13,14 +15,21 @@ body {
     
 }
 h1, h2, h3, h4, h5, h6 {
-    text-align: center;
-    font-weight: 600;
+    font-weight: 100;
 }
-header {
+header, footer{
     background-color: #1a577f;
     color: white;
     padding: 6px;
-
+    
+    a:visited {
+        color: white;
+        text-decoration: none;
+    }
+    a:link {
+        color: white;
+        text-decoration: none;
+    }
 }
 button {
     -webkit-appearance: none;
@@ -32,8 +41,8 @@ button {
     color: #fff;
     padding: 20px 20px;
     font-size: 20px;
-    font-family: 'SF Pro Text';
-    font-weight: 400;
+    font-family: 'Minecraft';
+    font-weight: 100;
     font-style: normal;
     min-width: 15%;
     text-align: center;
@@ -79,6 +88,12 @@ a:link {
     font-style: italic;
 }
 
+@font-face {
+    font-family: 'Minecraft';
+    src: url('../ttf/Minecraft/minecraft.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'Google Sans';

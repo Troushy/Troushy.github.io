@@ -21,15 +21,6 @@ header, footer{
     background-color: #1a577f;
     color: white;
     padding: 6px;
-    
-    a:visited {
-        color: white;
-        text-decoration: none;
-    }
-    a:link {
-        color: white;
-        text-decoration: none;
-    }
 }
 button {
     -webkit-appearance: none;

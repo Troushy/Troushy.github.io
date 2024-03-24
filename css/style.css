@@ -1,6 +1,6 @@
 html {
     text-decoration: none;
-    font-family: 'Typewriter';
+    font-family: 'SF Pro Text';
     font-weight: 400;
     font-style: normal;
     font-size: 22px;
@@ -33,7 +33,7 @@ button {
     color: #fff;
     padding: 20px 20px;
     font-size: 22px;
-    font-family: 'Typewriter';
+    font-family: 'SF Pro Text';
     font-weight: 400;
     font-style: normal;
     min-width: 15%;

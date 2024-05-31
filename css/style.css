@@ -1,36 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 html {
     text-decoration: none; 
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Inter", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 18px;
-    background-color: white; 
+	font-size: 22px;
+	background-image: url(../png/ya.ru.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
     line-height: 2.15;
 }
 body {
-    padding: 20px;
+    padding: 30px;
     background-color: white;
     color: black;
     text-align: left;
+	border-radius: 30px;
 }
-h1{
-    font-weight: 700;
+h1 {
+	font-size: 30px;
+    font-weight: 500;
     text-align: center;
 }
 
 h2, h3, h4, h5, h6 {
-    font-weight: 500;
+	font-size: 25px;
+    font-weight: 400;
     text-align: center;
 }
-header, footer {
+header {
     background-color: black;
     color: white;
     padding: 10px;
     text-align: center;
-	border-radius: 10px;
+	border-radius: 30px;
 }
 tab {
 	margin-left: 10px;
@@ -44,20 +48,20 @@ button {
     border-color: black;
     color: #fff;
     padding: 10px 10px;
-	font-family: "Ubuntu", sans-serif;
+	font-family: "Inter", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 25px;
-    min-width: 100px;
+	font-size: 20px;
+    min-width: 150px;
     text-align: center;
-	border-radius: 15px;
+	border-radius: 30px;
 }
 nav {
     border-color: black;
     text-align: center;
     text-decoration: none;
     background-color: #01CC9A;
-	border-radius: 15px;
+	border-radius: 30px;
 	padding: 15px;
 }
 
@@ -77,49 +81,44 @@ a:link {
     text-decoration: none;
 }
 .light {
-  font-family: "Ubuntu", sans-serif;
   font-weight: 300;
   font-style: normal;
 }
 
-.regular {
-  font-family: "Ubuntu", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 .medium {
-  font-family: "Ubuntu", sans-serif;
   font-weight: 500;
   font-style: normal;
 }
 
 .bold {
-  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
 .light-italic {
-  font-family: "Ubuntu", sans-serif;
   font-weight: 300;
   font-style: italic;
 }
 
 .italic {
-  font-family: "Ubuntu", sans-serif;
   font-weight: 400;
   font-style: italic;
 }
 
 .medium-italic {
-  font-family: "Ubuntu", sans-serif;
   font-weight: 500;
   font-style: italic;
 }
 
 .bold-italic {
-  font-family: "Ubuntu", sans-serif;
   font-weight: 700;
   font-style: italic;
+}
+
+.green {
+  color: green;
+}
+
+.blue {
+  color: blue;
 }

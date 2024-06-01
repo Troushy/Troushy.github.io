@@ -54,7 +54,7 @@ button {
 	font-weight: 400;
 	font-style: normal;
 	font-size: 23px;
-    min-width: 215px;
+    # min-width: 145px;
     text-align: center;
 	border-radius: 30px;
 }

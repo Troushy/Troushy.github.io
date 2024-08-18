@@ -4,14 +4,14 @@
 html {
   text-decoration: none; 
   font-family: "Russo One", sans-serif;
-	font-weight: 400;
+	font-weight: 200;
 	font-style: normal;
 	font-size: 27px;
 	background-color:black;
   /*image: url(mainimage.jpg);
 	background-repeat: no-repeat;
 	background-size: 5120px auto;*/
-    line-height: 1.05;
+    line-height: 1.25;
 }
 body {
   padding: 30px;

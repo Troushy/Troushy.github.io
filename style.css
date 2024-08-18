@@ -120,6 +120,14 @@ a:link {
   font-style: italic;
 }
 
+.red {
+  color: red;
+}
+
+.yellow {
+  color: yellow;
+}
+
 .green {
   color: green;
 }
@@ -128,8 +136,8 @@ a:link {
   color: blue;
 }
 
-.red {
-  color: red;
+.purple {
+  color: purple;
 }
 
 .gray {

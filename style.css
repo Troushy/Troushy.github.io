@@ -1,10 +1,9 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 
 html {
   text-decoration: none; 
-  font-family: "Russo One", sans-serif;
-	font-weight: 200;
+  font-family: "Play", sans-serif;
+	font-weight: 400;
 	font-style: normal;
 	font-size: 27px;
 	background-color:black;
@@ -57,7 +56,7 @@ button {
     border-color: black;
     color: #fff;
     padding: 10px 10px;
-	font-family: "Russo One", sans-serif;
+	font-family: "Play", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 28px;
@@ -120,31 +119,22 @@ a:link {
   font-style: italic;
 }
 
-.red {
-  color: red;
-}
-
-.yellow {
-  color: yellow;
-}
-
-.green {
-  color: green;
-}
-
-.blue {
-  color: blue;
-}
-
-.purple {
-  color: purple;
+.start {
+  color: rgb(145, 22, 22);
 }
 
 .gray {
   color: gray;
 }
-.russo-one-regular {
-  font-family: "Russo One", sans-serif;
+
+.play-regular {
+  font-family: "Play", sans-serif;
   font-weight: 400;
+  font-style: normal;
+}
+
+.play-bold {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
   font-style: normal;
 }

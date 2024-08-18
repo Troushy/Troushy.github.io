@@ -34,9 +34,6 @@ h2, h3, h4, h5, h6 {
   margin-top: 40px;
 }
 header, footer {
-  header{
-    background-color: #0b9b7c;
-  }
     background-color: black;
     color: white;
     padding: 10px;
@@ -44,6 +41,9 @@ header, footer {
 	border-radius: 30px;
 	line-height: 1.15;
 	font-size: 20px;
+}
+header {
+  background-color: #0b8869;
 }
 .tab {
 	margin-left: 25px;
@@ -68,7 +68,7 @@ nav {
     border-color: black;
     text-align: center;
     text-decoration: none;
-    background-color: #01CC9A;
+    background-color: #149c7a;
 	border-radius: 30px;
 	padding: 15px;
 }

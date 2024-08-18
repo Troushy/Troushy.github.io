@@ -34,6 +34,9 @@ h2, h3, h4, h5, h6 {
   margin-top: 40px;
 }
 header, footer {
+  header{
+    background-color: #0b9b7c;
+  }
     background-color: black;
     color: white;
     padding: 10px;
@@ -131,4 +134,9 @@ a:link {
 
 .gray {
   color: gray;
+}
+.russo-one-regular {
+  font-family: "Russo One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }

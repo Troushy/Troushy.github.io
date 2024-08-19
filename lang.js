@@ -1,2 +1,1 @@
-geo = navigator.geolocation;
-alert(geo);
+alert(navigator.geolocation.getCurrentPosition);

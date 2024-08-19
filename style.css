@@ -5,7 +5,7 @@ html {
   font-family: "Play", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 27px;
+	font-size: 23px;
 	background-color:black;
   /*image: url(mainimage.jpg);
 	background-repeat: no-repeat;
@@ -20,13 +20,13 @@ body {
 	border-radius: 30px;
 }
 h1 {
-	font-size: 36px;
+	font-size: 32px;
   font-weight: 500;
   text-align: center;
 }
 
 h2, h3, h4, h5, h6 {
-	font-size: 30px;
+	font-size: 28px;
   font-weight: 400;
   text-align: center;
   line-height: 0.3;
@@ -42,7 +42,7 @@ header, footer {
 	font-size: 20px;
 }
 header {
-  background-color: #1b5fb9;
+  background-color: #0d67dc;
 }
 .tab {
 	margin-left: 25px;
@@ -59,16 +59,16 @@ button {
 	font-family: "Play", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 28px;
+	font-size: 23px;
     text-align: center;
 	border-radius: 30px;
-  min-width: 150px;
+  min-width: 100px;
 }
 nav {
     border-color: black;
     text-align: center;
     text-decoration: none;
-    background-color: #146bce;
+    background-color: #14549e;
 	border-radius: 30px;
 	padding: 15px;
 }

@@ -62,6 +62,7 @@ button {
 	font-size: 28px;
     text-align: center;
 	border-radius: 30px;
+  min-width: 150px;
 }
 nav {
     border-color: black;
@@ -138,3 +139,21 @@ a:link {
   font-weight: 700;
   font-style: normal;
 }
+
+.en_lang{
+	position: absolute;
+	top: -9999px;
+	left: -9999px;}
+.lang_buttons{
+	text-align: right;
+	.button{
+		display: inline-block;
+		text-decoration: none;
+		border: 1px solid gray;
+		padding: 5px 15px;
+		margin-top: 20px;
+		margin-right: 0;}
+	.en_lang{
+		position: absolute;
+		top: -9999px;
+		left: -9999px;}}

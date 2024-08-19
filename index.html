@@ -6,17 +6,15 @@
         <title>UralStuff</title>
         <link rel="stylesheet" href="style.css"/>
         <link rel="icon" href="favicon.png"/>
-		<script src="land.js"></script>
+		<script src="lang.js"></script>
     </head>
     <body>
-		<div class="lang_buttons">
-			<a href="#" id="en-lang">
-				Английский
-			  </a>
-			  <a href="#" id="ru-lang">
-				  Russian
-			  </a>
-		  </div>
+		<ul>
+			<li><a onclick="return switch_language('ru', 'ru')" href="/ru/">ru</a></li>
+			<li><a onclick="return switch_language('ru', 'en')" href="/en/">en</a></li>
+			<li><a onclick="return switch_language('ru', 'cn')" href="/cn/">cn</a></li>
+		 </ul>
+</div>
 		<div class="main-ru">
         <header>
             <h1>

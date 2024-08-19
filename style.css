@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap');
 
 html {
   text-decoration: none; 
-  font-family: "Play", sans-serif;
+  font-family: "Inter", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 24px;
+	font-size: 21px;
 	background-color:black;
   /*image: url(mainimage.jpg);
 	background-repeat: no-repeat;
 	background-size: 5120px auto;*/
-    line-height: 1.25;
+    line-height: 1.1;
 }
 body {
   padding: 25px;
@@ -46,30 +46,45 @@ header {
 	margin-left: 25px;
 }
 button {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-	
-    background: #0e76d1;
-    
-    color: #fff;
-	font-family: "Play", sans-serif;
-  border: -2;
-  /* border-color: rgb(0, 0, 0); */ 
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #0e76d1;
+  color: #fff;
+	font-family: "Inter", sans-serif;
+  border: 2px;
+  border-color: black;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 24px;
-    text-align: center;
+  text-align: center;
 	border-radius: 5px;
   margin-inline: -2px;
 }
 nav {
-    border-color: black;
-    text-align: center;
-    text-decoration: none;
-    background-color: #115aad;
+  border-color: black;
+  text-align: center;
+  text-decoration: none;
+  background-color: #115aad;
 	border-radius: 5px;
 	padding: 0px;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+   appearance: none;
+  background: #0e76d1;
+  color: #fff;
+	font-family: "Inter", sans-serif;
+  border: 2px;
+  border-color: black;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 24px;
+  text-align: center;
+	border-radius: 5px;
+  margin-inline: -2px;
+  text-decoration: none;
 }
 
 button:hover {
@@ -127,20 +142,16 @@ a:link {
   color: gray;
 }
 
-.play-regular {
-  font-family: "Play", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.play-bold {
-  font-family: "Play", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
 .language {
   margin-left: calc(5% - 25px);
 }
 .language button {
   margin-right: 2px;
+}
+
+.inter-uniquifier {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
 }

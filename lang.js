@@ -1,1 +1,1 @@
-alert(navigator.geolocation.getCurrentPosition());
+alert($html(location.results[0].address_components[i].long_name));

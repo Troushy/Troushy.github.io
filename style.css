@@ -139,7 +139,7 @@ a:link {
   font-style: normal;
 }
 .language {
-  text-align: right;
+  margin-left: calc(5% - 25px);
 }
 .language button {
   margin-right: 2px;

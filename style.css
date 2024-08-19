@@ -42,7 +42,7 @@ header, footer {
 	font-size: 20px;
 }
 header {
-  background-color: #0d67dc;
+  background-color: #0e4b91;
 }
 .tab {
 	margin-left: 25px;
@@ -52,7 +52,7 @@ button {
     -moz-appearance: none;
     appearance: none;
 	border: 1px;
-    background: #0d52d3;
+    background: #0e76d1;
     border-color: black;
     color: #fff;
     padding: 10px 10px;
@@ -68,13 +68,13 @@ nav {
     border-color: black;
     text-align: center;
     text-decoration: none;
-    background-color: #14549e;
+    background-color: #115aad;
 	border-radius: 30px;
 	padding: 15px;
 }
 
 button:hover {
-    background: #0d52d2;
+    background: #0a5ea7;
 }
 
 a:visited {

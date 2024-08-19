@@ -37,7 +37,7 @@ header, footer {
     color: white;
     padding: 10px;
     text-align: center;
-	border-radius: 30px;
+	border-radius: 10px;
 	line-height: 1.15;
 	font-size: 20px;
 }
@@ -55,22 +55,22 @@ button {
     background: #0e76d1;
     border-color: black;
     color: #fff;
-    padding: 10px 10px;
+    padding: 5px 5px;
 	font-family: "Play", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 	font-size: 23px;
     text-align: center;
-	border-radius: 30px;
-  min-width: 100px;
+	border-radius: 10px;
+  min-width: 50px;
 }
 nav {
     border-color: black;
     text-align: center;
     text-decoration: none;
     background-color: #115aad;
-	border-radius: 30px;
-	padding: 15px;
+	border-radius: 10px;
+	padding: 2px;
 }
 
 button:hover {
@@ -138,4 +138,11 @@ a:link {
   font-family: "Play", sans-serif;
   font-weight: 700;
   font-style: normal;
+}
+.language {
+  font-size: 16px;
+  text-align: right;
+}
+.language button {
+  font-size: 16px;
 }

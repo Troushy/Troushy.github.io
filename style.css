@@ -142,7 +142,7 @@ a:link {
 }
 
 .language {
-  position: fixed;
+  position: absolute;
   margin-left: calc(40% - 350px);
 }
 .language button {

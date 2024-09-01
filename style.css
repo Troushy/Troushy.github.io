@@ -32,7 +32,7 @@ html {
 	border-radius: 5px;
 	line-height: 1.15;
 }
-header{background-color: #3b7551;}
+header{background-color: #2d4e30;}
 .tab {margin-left: 25px;}
 button {
   -webkit-appearance: none;
@@ -45,7 +45,7 @@ button {
   border-color: black;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 90%;
+	font-size: 24px;
   text-align: center;
 	border-radius: 5px;
   margin-inline: -2px;
@@ -53,9 +53,9 @@ button {
   border-color: black;
   text-align: center;
   text-decoration: none;
-  background-color: #1b4325;
+  background-color: #28342b;
 	border-radius: 5px;
-	padding: 0px;
+	padding: 15px;
 } select {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -67,7 +67,7 @@ button {
   border-color: black;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 90%;
+	font-size: 15px;
   text-align: left;
 	border-radius: 5px;
   margin-inline: -2px;

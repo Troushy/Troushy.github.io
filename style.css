@@ -5,7 +5,7 @@ html {
   font-family: "Inter", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 25.3px;
+	font-size: 35.8px;
 	background-color:black;
   /*image: url(mainimage.jpg);
 	background-repeat: no-repeat;
@@ -45,7 +45,7 @@ button {
   border-color: black;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 24px;
+	font-size: 34px;
   text-align: center;
 	border-radius: 5px;
   margin-inline: -2px;
@@ -67,7 +67,7 @@ button {
   border-color: black;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 25px;
+	font-size: 35px;
   text-align: left;
 	border-radius: 5px;
   margin-inline: -2px;

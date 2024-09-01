@@ -44,9 +44,38 @@
 			
         </header>
 		
-		<h2>
-			Заглушка
+        1. <a href="#python">Установка Python 3.12</a>
+        2. <a href="#pip3pytube">Установка pytube</a>
+        3. <a href="#coding">Кодинг</a>
+
+		<h2 id="python">
+			Установка Python 3.12
 		</h2>
+
+        <p>
+            Самую новую версию python можно взять <a href="https://www.python.org">здесь</a>. Скачиваем и устанавливаем.
+        </p>
+
+        <h2 id="pip3pytube">
+            Установка pytube в среду библиотек python (pip3)
+        </h2>
+
+        <p>
+            Жмём Win + R и набираем cmd и открываем коммандную строку. Вводим "pip3 install pytubefix" (примечание: да, fix. Когда устанавливаешь просто pytube то вылетает HTTP Error 400: Bad request).
+        </p>
+
+        <h2 id="coding">
+            Кодинг
+        </h2>
+
+        <p>
+            Нажимаем Win и просто пишем IDLE. Нахожим первое попавшееся и нажимаем. Далее нажимаем File &gt; Create и даже пишем в редактор код:
+        </p>
+        <p>from pytubefix import YouTube</p>
+        <p>link_vid = "" # в кавычки вставляйте ссылку видео</p>
+        <p>YouTube(link_vid).streams.get_highest_resolution().download()</p>
+        <p></p>
+        <p>Далее ищите папку с файлом py. Там и будет видео</p>
 
 		<footer>
 		

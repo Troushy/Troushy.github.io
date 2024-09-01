@@ -107,11 +107,11 @@ a:visited {
 
 .language {
   position: absolute;
-  margin-left: 40%;
+  margin-left: 35%;
 }
 .buttons {
   position: absolute;
-  margin-left: 40%;
+  margin-right: 35%;
 }
 .language button {margin-right: 2px;}
 

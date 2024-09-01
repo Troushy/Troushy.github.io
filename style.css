@@ -5,12 +5,12 @@ html {
   font-family: "Inter", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 20.3px;
+	font-size: 25.3px;
 	background-color:black;
   /*image: url(mainimage.jpg);
 	background-repeat: no-repeat;
 	background-size: 5120px auto;*/
-    line-height: 1.05;
+    line-height: 1.15;
 } body {
   padding: 25px;
   background-color: white;
@@ -32,13 +32,13 @@ html {
 	border-radius: 5px;
 	line-height: 1.15;
 }
-header{background-color: #1c984c;}
+header{background-color: #3b7551;}
 .tab {margin-left: 25px;}
 button {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: #d4782d;
+  background: #000000;
   color: #fff;
 	font-family: "Inter", sans-serif;
   border: 2px;
@@ -53,14 +53,14 @@ button {
   border-color: black;
   text-align: center;
   text-decoration: none;
-  background-color: #e5cf0a;
+  background-color: #1b4325;
 	border-radius: 5px;
 	padding: 0px;
 } select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: #0e76d1;
+  background: #222222;
   color: #fff;
 	font-family: "Inter", sans-serif;
   border: 0px;
@@ -73,7 +73,7 @@ button {
   margin-inline: -2px;
   text-decoration: none;
   min-width: 130px;
-} button:hover {background: #0a5ea7;}
+} button:hover {background: #1a1a1a;}
 a:visited {
     color: #1d66aa;
     text-decoration: none;

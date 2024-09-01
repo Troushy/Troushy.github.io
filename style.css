@@ -5,7 +5,7 @@ html {
   font-family: "Inter", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 120%;
+	font-size: 20.3px;
 	background-color:black;
   /*image: url(mainimage.jpg);
 	background-repeat: no-repeat;
@@ -32,13 +32,13 @@ html {
 	border-radius: 5px;
 	line-height: 1.15;
 }
-header{background-color: #70aef4;}
+header{background-color: #1c984c;}
 .tab {margin-left: 25px;}
 button {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: #3d73a2;
+  background: #d4782d;
   color: #fff;
 	font-family: "Inter", sans-serif;
   border: 2px;
@@ -53,7 +53,7 @@ button {
   border-color: black;
   text-align: center;
   text-decoration: none;
-  background-color: #4b7cb3;
+  background-color: #e5cf0a;
 	border-radius: 5px;
 	padding: 0px;
 } select {

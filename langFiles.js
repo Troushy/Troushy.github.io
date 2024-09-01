@@ -1,4 +1,4 @@
-var select = document.querySelector("select");
+var select = document.getElementById("language");
 select.addEventListener('change', function (e) {
     // alert(e.target.value + '.html');
     var yes = confirm("Are you sure?/Вы уверены?");

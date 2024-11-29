@@ -101,6 +101,8 @@ a:visited {
 } .bold-italic {
   font-weight: 700;
   font-style: italic;
+} .mid {
+  text-align: center;
 }
 
 .start {color: rgb(145, 22, 22)}

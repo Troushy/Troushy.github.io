@@ -5,26 +5,34 @@ html {
   font-family: "Inter", sans-serif;
 	font-weight: 400;
 	font-style: normal;
-	font-size: 37px;
+	font-size: 32px;
 	background-color:black;
   /*image: url(mainimage.jpg);
 	background-repeat: no-repeat;
 	background-size: 5120px auto;*/
     line-height: 1.15;
-} body {
+} 
+
+body {
   padding: 25px;
   background-color: white;
   color: black;
   text-align: left;
 	border-radius: 5px;
-} h1 {
+} 
+
+h1 {
   font-weight: 500;
   text-align: center;
-} h2, h3, h4, h5, h6 {
+} 
+
+h2, h3, h4, h5, h6 {
   font-weight: 400;
   text-align: center;
   margin-top: 40px;
-} header, footer {
+} 
+
+header, footer {
   background-color: black;
   color: white;
   padding: 25px;
@@ -32,8 +40,11 @@ html {
 	border-radius: 5px;
 	line-height: 1.15;
 }
+
 header{background-color: #2d4e30;}
+
 .tab {margin-left: 20px;}
+
 button {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -49,14 +60,19 @@ button {
   text-align: center;
 	border-radius: 5px;
   margin-inline: -2px;
-} nav {
+} 
+
+nav {
   border-color: black;
   text-align: center;
   text-decoration: none;
   background-color: #28342b;
 	border-radius: 5px;
 	padding: 12px;
-} select {
+  min-height: 100px;
+} 
+
+select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -73,49 +89,78 @@ button {
   margin-inline: -2px;
   text-decoration: none;
   min-width: 130px;
-} button:hover {background: #1a1a1a;}
+}
+
+button:hover {
+  background: #1a1a1a;
+}
+
 a:visited {
     color: #1d66aa;
     text-decoration: none;
-} a:link {
+} 
+
+a:link {
     color: #1d66aa;
     text-decoration: none;
-} .light {
+} 
+
+.light {
   font-weight: 300;
   font-style: normal;
-} .medium {
+} 
+
+.medium {
   font-weight: 500;
   font-style: normal;
-}.bold {
+}
+
+.bold {
   font-weight: 700;
   font-style: normal;
-} .light-italic {
+} 
+
+.light-italic {
   font-weight: 300;
   font-style: italic;
-} .italic {
+} 
+
+.italic {
   font-weight: 400;
   font-style: italic;
-} .medium-italic {
+} 
+
+.medium-italic {
   font-weight: 500;
   font-style: italic;
-} .bold-italic {
+} 
+
+.bold-italic {
   font-weight: 700;
   font-style: italic;
-} .mid {
+} 
+
+.mid {
   text-align: center;
 }
 
-.start {color: rgb(145, 22, 22)}
+.start {
+  color: rgb(145, 22, 22)
+}
 
 .language {
   position: absolute;
   margin-left: 30%;
 }
+
 .buttons {
   position: absolute;
   margin-left: -40%;
 }
-.language button {margin-right: 2px;}
+
+.language button {
+  margin-right: 5%;
+}
 
 .inter-uniquifier {
   font-family: "Inter", sans-serif;
